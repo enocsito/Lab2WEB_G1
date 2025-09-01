@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+p {
+    margin-block: 1.5rem;
+}
+
+.class {
+    text-decoration: underline;
+}
+
+#id {
+    font-family: monospace;
+}
+
+li:has(a){
+    display:flex;
+}
+
+.container {
+    display: grid;
+    grid-template-columns:
+        1fr 1fr 
+        minmax(10px, 1fr) 3fr 
+        repeat(5, 1fr) 
+        50px auto 100px 1fr;
+}
+.item {
+    flex-grow: 1;
+}
+
+.item2 {
+    flex-grow: 2;
+}
