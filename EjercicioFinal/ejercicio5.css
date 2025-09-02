@@ -14,16 +14,16 @@ p {
     font-family: monospace;
 }
 
-li:has(a){
-    display:flex;
+li:has(a) {
+    display: flex;
 }
 
 .container {
     display: grid;
     grid-template-columns:
         repeat(3, 1fr)
-
 }
+
 .item {
     flex-grow: 1;
     border: 2px solid rgba(65, 186, 235, 0.315);
@@ -34,21 +34,23 @@ li:has(a){
     display: flex;
 }
 
-header{
+header {
     background-color: rgba(65, 186, 235, 0.315);
     border-radius: 10px;
     align-items: center;
     justify-content: center;
     display: flex;
 }
+
 h1 {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .item-9 img {
     width: 350px;
     height: auto;
 }
+
 .item-8 img {
     width: 350px;
     height: auto;

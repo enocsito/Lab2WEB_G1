@@ -14,8 +14,8 @@ p {
     font-family: monospace;
 }
 
-li:has(a){
-    display:flex;
+li:has(a) {
+    display: flex;
 }
 
 .container {
@@ -29,10 +29,10 @@ li:has(a){
     column-gap: 20px;
 }
 
-.item{
+.item {
     flex-grow: 1;
 }
 
-.item-2{
+.item-2 {
     flex-grow: 2;
 }
